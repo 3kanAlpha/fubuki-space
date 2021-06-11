@@ -1,7 +1,8 @@
 # Love and waifu
+Fubuki, but she tells you she loves you...  
 フブキちゃんに好きを囁かれるだけ
 
-(Click here to visit)[https://3kanalpha.github.io/fubuki-space/]
+[Click here to visit](https://3kanalpha.github.io/fubuki-space/)
 
 ## Usage / 使い方
 If you read the notice, tap the screen to load the page.  
