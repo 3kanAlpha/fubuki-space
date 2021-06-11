@@ -13,12 +13,26 @@
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="assets/style.css">
     </head>
     <body>
         <div id="container">
-            <div id="wait">Now Loading...</div>
-            <div id="video" class="player" data-property="{videoURL:'https://youtu.be/8sjcyc3sFHk',containment:'body',autoPlay:true, mute:false, startAt:0, opacity:1, loop:true, showControls:false}">My video</div>
+            <div id="wait">
+                <i class="small material-icons">play_arrow</i><p>Notice: Tap the screen to play audio.</p>
+            </div>
+            <div id="video" class="player" data-property="{
+                videoURL:'https://youtu.be/8sjcyc3sFHk',
+                containment:'body',
+                autoPlay:true,
+                mute:false,
+                startAt:0,
+                opacity:1,
+                loop:true,
+                showControls:false
+            }">My video</div>
         </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
