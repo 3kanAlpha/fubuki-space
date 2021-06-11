@@ -13,6 +13,10 @@ function playVideo() {
     video.YTPApplyFilters(filters);
 }
 
+function onClick(event) {
+    console.log("you clicked (" + event.pageX + ", " + event.pageY + ")");
+}
+
 $(function() {
     let notice = document.getElementById("wait");
 
@@ -20,4 +24,9 @@ $(function() {
         $("#wait").fadeOut();
         playVideo();
     });
+});
+
+$("#video").on("YTPStart", function(e) {
+    let container = document.getElementById("container");
+    container.addEventListener("click", onClick);
 });
