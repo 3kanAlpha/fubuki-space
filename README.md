@@ -1,2 +1,2 @@
-# fubuki-space
+# Love and waifu
 フブキちゃんに好きを囁かれるだけ
