@@ -24,3 +24,35 @@ body {
     align-items: center;
     font-size: 2rem;
 }
+
+.fav {
+    color: #42a2fc;
+    animation: fav .8s;
+    z-index: 1;
+    position: absolute;
+}
+
+@keyframes fav {
+    0% {
+        opacity: 0.8;
+        /* アイコンサイズをもとのより小さくする */
+        transform: scale(0.5);
+    }
+    10% {
+        transform: scale(0.7);
+    }
+    30% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    80% {
+        transform: scale(1.5);
+    }
+    100% {
+        opacity: 0.0;
+        /* もとのサイズに戻す */
+        transform: scale(1.0);
+    }
+}
